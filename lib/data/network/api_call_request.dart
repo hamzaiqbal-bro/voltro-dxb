@@ -20,7 +20,7 @@ class Request {
       new_Dio.Response result = await _dio.get(_baseUrl+url,
           options: new_Dio.Options(
             headers: {
-              'X-Access-Token': '5cf9dfd5-3449-485e-b5ae-70a60e997864',
+              'X-Access-Token': StringAssets.xAccessToken,
               "content-Type" : 'application/json'
             },
           ));
